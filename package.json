@@ -1,0 +1,30 @@
+{
+  "name": "dependency-injection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prakashdivyy/dependency-injection.git"
+  },
+  "author": "Prakash Divy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prakashdivyy/dependency-injection/issues"
+  },
+  "homepage": "https://github.com/prakashdivyy/dependency-injection#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "express": "^4.15.2",
+    "memstore": "^0.1.1",
+    "mocha": "^3.3.0",
+    "supertest": "^3.0.0"
+  }
+}
